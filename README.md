@@ -46,4 +46,4 @@ The data set is now in the form in which it can be tidied.
 
 
 ##The function of the Code Book
-To further detail the values of the data and what they mean.
+Contains details about the values of the data and what they mean.
