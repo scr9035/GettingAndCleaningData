@@ -41,7 +41,7 @@ The process of tidying the test/train data set is as follows:
 
 The data set is now in the form in which it can be tidied.
 
-4. Aggregate the combined test/train mean feature data data for each participant and activity.
+4. Aggregate the combined test/train mean feature data for each participant and activity.
 5. Save this new data set as tidy data.
 
 
