@@ -23,22 +23,24 @@ acitivty_labels: The numbering system corresponding to the activity. Example, 1=
 ##Introduction to the data analysis
 Before tidying the data, it must first be downloaded and the working directory set.
 
-1a. A full description of the UCI HAR data can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+1. A full description of the UCI HAR data can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-1b. The UCI Har data and code book can be downloaded from:
+2. The UCI Har data and code book can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-2. Set the working directory. Type ?setwd into the console to see how to do this.
+3. Set the working directory. Type ?setwd into the console to see how to do this.
 
 
 ##The run_analysis.R script methodology
 
 The process of tidying the test/train data set is as follows:
+
 1. Open all 6 files (3 test, 3 train) plus the features and activities files (8 in total) into the R-studio evnronment.
 2. Pull only the features that matched mean or std.
 3. Combine the test/train into one file that only had mean/std values for each particpant and activity.
 
 The data set is now in the form in which it can be tidied.
+
 4. Aggregate the combined test/train mean feature data data for each participant and activity.
 5. Save this new data set as tidy data.
 
