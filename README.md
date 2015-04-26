@@ -36,8 +36,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The process of tidying the test/train data set is as follows:
 
 1. Open all 6 files (3 test, 3 train) plus the features and activities files (8 in total) into the R-studio environment.
-2. Pull only the features that matched mean or std.
-3. Combine the test/train into one file that only had mean/std values for each particpant and activity.
+2. Extract only the features that match mean or std.
+3. Combine the test/train into one file that only have mean/std values for each particpant and activity.
 
 The data set is now in the form in which it can be tidied.
 
